@@ -1,0 +1,175 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style-type: none;
+}
+body{
+  background-color: #A020F0;
+  width: 100%;
+}
+.form_group {
+  display: grid;
+  gap: 30px;
+  justify-content: center;
+  margin-left: 400px;
+  margin-right: 400px;
+  margin-top: 100px;
+  padding: 10px;
+  padding-bottom: 30px;
+  font-family: 'Inter', sans-serif;
+  background-color:  #FAEEC8;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 20px;
+} 
+h1 {
+  color: rgb(15, 15, 15);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.Enter_email {
+    width: 200px;
+  height: 5vh;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 150px;
+}
+.one {
+  font-family: Arial, Helvetica, sans-serif
+}
+.two {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+/*     text-align: center;
+  margin-right: 30px; */
+}
+button {
+  width: 200px;
+  height: 5vh;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 150px;
+  border-radius: 20px;
+  border-width: thin;
+}
+button:hover { 
+background-color: burlywood;
+}
+.Enter_username, .Enter_password, .Enter_confirm_password {
+width: 200px;
+  height: 5vh;
+  font-weight: bold;
+  cursor: pointer;
+  text-align: center;
+  margin-left: 150px;
+} 
+.language {
+text-align: center;
+margin-left: 600px;
+margin-top: 10px;
+}
+.log_in {
+text-decoration: underline;
+font-weight: bold;
+/*   text-align: center;
+margin-right: 30px; */
+}
+@media screen and (max-width: 500px) {
+body {
+  background-color: green;
+}
+.form_group {
+  width: 350px;
+  margin: 0 auto;
+}
+.language{
+  margin-left: 150px;
+  margin-top: 2px;
+}
+h1 {
+  text-align: center;
+}
+.Enter_email{
+width: 150px;
+margin-left: 100px;
+}
+button {
+margin-left: 70px;
+}
+}
+@media only screen and (max-width: 991px) and (min-width: 501px){
+body {
+  background-color: green;
+}
+.form_group {
+  width: 500px;
+  margin: 0 auto;
+}
+.language{
+  margin-left: 230px;
+  margin-top: 2px;
+}
+h1 {
+  text-align: center;
+}
+.Enter_email{
+width: 150px;
+margin-left: 150px;
+}
+button {
+margin-left: 130px;
+}
+}
+@media only screen and (max-width: 1024px) and (min-width: 992px){
+body {
+  background-color: #A020F0;
+}
+.form_group {
+  width: 500px;
+  margin: 0 auto;
+}
+.language{
+/*     margin-left: 450px; */
+  margin-left: 230px;
+  margin-top: 2px;
+}
+h1 {
+  text-align: center;
+}
+.Enter_email{
+width: 150px;
+margin-left: 150px;
+}
+button {
+margin-left: 120px;
+}
+}
+@media only screen and (max-width: 1280px) and (min-width: 1025px){
+body {
+  background-color: #A020F0;
+}
+.form_group {
+  width: 500px;
+  margin: 0 auto;
+}
+.language{
+  margin-left: 550px;
+  margin-top: 2px;
+}
+h1 {
+  text-align: center;
+}
+.Enter_email{
+width: 150px;
+margin-left: 150px;
+}
+.log_in {
+text-align: center;
+}
+button {
+margin-left: 120px;
+}
+}

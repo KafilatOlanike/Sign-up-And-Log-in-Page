@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="signin.css" />
+
+    <title>Sign Up</title>
+    <script src="signin.js"></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <div class="form_group">
+        <h1>Sign up for your account</h1>
+        <input
+          type="Enter email"
+          id="Enter_email"
+          class="Enter_email"
+          placeholder="Enter email"
+          required
+        />
+        <p class="one">
+          By signing up, you confirm that you have <span>read</span> and
+          <span>accepted</span> our
+          <a href="tos.html" class="terms_of_service">terms of Service</a>
+        </p>
+        <button id="button">Continue</button>
+        <p class="two">OR</p>
+        <button>Continue with Google</button>
+        <button>Continue with Microsoft</button>
+        <button>Continue with Apple</button>
+        <a>Already have an account? Log in below</a>
+        <a class="log_in" href="loginpage.html">Log in</a>
+      </div>
+      <select class="language" required>
+        <option value="English_(UK)">English (UK)</option>
+        <option value="English_(US)">English (US)</option>
+      </select>
+    </main>
+    <!--     <script>document.querySelector("#button").innerHTML = "Welcome to my Page";</script> -->
+  </body>
+</html>

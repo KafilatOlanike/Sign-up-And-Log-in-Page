@@ -1,0 +1,94 @@
+/* *{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: blue;
+    color: white;
+  } */
+  body{
+    background-color: white;
+  }
+  h1 {
+    text-align: center;
+    font: oswald;
+    font-weight: bold;
+  }
+  /* .container{
+    box-sizing: border-box;
+    width: 128px;
+    min-width:100%;
+    margin: 0 auto;
+  } */
+  
+  .form_group {
+    margin: 10px;
+    width: 50%;
+    height: 50%;
+    margin-top: 5px;
+    box-sizing: border-box;
+    display: flexbox;
+    gap: 30px;
+    justify-content: center;
+    margin-left: 300px;
+    padding: 20px;
+    padding-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+    background-color:  green;
+    text-align: center;
+    border-radius: 20px;
+  }
+
+.Enter_username {
+  color: yellow;
+  margin-top: 30px;
+}
+#enterUsername {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.Enter_password {
+  color: yellow;
+  margin-top: 30px;
+}
+#enterPassword {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+.Enter_confirm_password {
+  color: yellow;
+  margin-top: 30px;
+}
+#enterConfirmPassword {
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+button {
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+button:hover {
+    color: burlywood;
+  }
+@media screen and (max-width: 500px) {
+  h1 {
+    font: Arial;
+    font-size: 30px;
+    margin-right: 50px;
+  }
+
+  .form_group {
+    width: 390px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+button {
+  margin-left: 3px;
+  height: 30px;
+}
+}
+  
+  
+
